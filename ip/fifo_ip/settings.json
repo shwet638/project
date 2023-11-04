@@ -1,0 +1,72 @@
+{
+    "args": [
+        "-o",
+        "fifo_ip",
+        "--base_path",
+        "C:\\Efinity\\2023.1\\project\\systolic_array\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory",
+            "name": "efx_fifo_top",
+            "version": "5.0"
+        }
+    ],
+    "conf": {
+        "SYNC_CLK": "1",
+        "SYNC_STAGE": "2",
+        "DEPTH_2": "10",
+        "DATA_WIDTH": "8",
+        "MODE": "\"STANDARD\"",
+        "OUTPUT_REG": "0",
+        "PROG_FULL_ASSERT": "128",
+        "PROGRAMMABLE_FULL": "\"STATIC_SINGLE\"",
+        "PFN_INTERNAL": "127",
+        "PEA_INTERNAL": "2",
+        "PEN_INTERNAL": "3",
+        "PROGRAMMABLE_EMPTY": "\"NONE\"",
+        "OPTIONAL_FLAGS": "1",
+        "PIPELINE_REG": "1",
+        "FAMILY": "\"TRION\"",
+        "ASYM_WIDTH_RATIO": "5",
+        "BYPASS_RESET_SYNC": "0",
+        "ENDIANESS": "0"
+    },
+    "output": {
+        "external_source_source": [
+            "C:\\Efinity\\2023.1\\project\\systolic_array\\ip\\fifo_ip\\fifo_ip_tmpl.v",
+            "C:\\Efinity\\2023.1\\project\\systolic_array\\ip\\fifo_ip\\fifo_ip_tmpl.vhd",
+            "C:\\Efinity\\2023.1\\project\\systolic_array\\ip\\fifo_ip\\fifo_ip_define.vh",
+            "C:\\Efinity\\2023.1\\project\\systolic_array\\ip\\fifo_ip\\fifo_ip.v"
+        ],
+        "external_example_example": [
+            "C:\\Efinity\\2023.1\\project\\systolic_array\\ip\\fifo_ip\\T20F256_devkit\\fifo_demo_top.v",
+            "C:\\Efinity\\2023.1\\project\\systolic_array\\ip\\fifo_ip\\T20F256_devkit\\fifo_demo.peri.xml",
+            "C:\\Efinity\\2023.1\\project\\systolic_array\\ip\\fifo_ip\\T20F256_devkit\\fifo_demo.xml",
+            "C:\\Efinity\\2023.1\\project\\systolic_array\\ip\\fifo_ip\\T20F256_devkit\\fifo_demo_T20.sdc",
+            "C:\\Efinity\\2023.1\\project\\systolic_array\\ip\\fifo_ip\\T20F256_devkit\\efx_symmetric_width_fifo_top.v",
+            "C:\\Efinity\\2023.1\\project\\systolic_array\\ip\\fifo_ip\\T20F256_devkit\\fifo_ip.v",
+            "C:\\Efinity\\2023.1\\project\\systolic_array\\ip\\fifo_ip\\T20F256_devkit\\fifo_ip_define.vh"
+        ],
+        "external_example_2": [
+            "C:\\Efinity\\2023.1\\project\\systolic_array\\ip\\fifo_ip\\Ti60F225_devkit\\fifo_demo_top.v",
+            "C:\\Efinity\\2023.1\\project\\systolic_array\\ip\\fifo_ip\\Ti60F225_devkit\\fifo_demo.peri.xml",
+            "C:\\Efinity\\2023.1\\project\\systolic_array\\ip\\fifo_ip\\Ti60F225_devkit\\fifo_demo.xml",
+            "C:\\Efinity\\2023.1\\project\\systolic_array\\ip\\fifo_ip\\Ti60F225_devkit\\fifo_demo_Ti60.sdc",
+            "C:\\Efinity\\2023.1\\project\\systolic_array\\ip\\fifo_ip\\Ti60F225_devkit\\efx_symmetric_width_fifo_top.v",
+            "C:\\Efinity\\2023.1\\project\\systolic_array\\ip\\fifo_ip\\Ti60F225_devkit\\fifo_ip.v",
+            "C:\\Efinity\\2023.1\\project\\systolic_array\\ip\\fifo_ip\\Ti60F225_devkit\\fifo_ip_define.vh"
+        ],
+        "external_testbench_testbench": [
+            "C:\\Efinity\\2023.1\\project\\systolic_array\\ip\\fifo_ip\\Testbench\\fifo_tb.sv",
+            "C:\\Efinity\\2023.1\\project\\systolic_array\\ip\\fifo_ip\\Testbench\\xrun.sh",
+            "C:\\Efinity\\2023.1\\project\\systolic_array\\ip\\fifo_ip\\Testbench\\msim.sh",
+            "C:\\Efinity\\2023.1\\project\\systolic_array\\ip\\fifo_ip\\Testbench\\flist",
+            "C:\\Efinity\\2023.1\\project\\systolic_array\\ip\\fifo_ip\\Testbench\\modelsim.do",
+            "C:\\Efinity\\2023.1\\project\\systolic_array\\ip\\fifo_ip\\Testbench\\fifo_ip.v",
+            "C:\\Efinity\\2023.1\\project\\systolic_array\\ip\\fifo_ip\\Testbench\\fifo_ip_define.vh"
+        ]
+    },
+    "sw_version": "2023.1.150",
+    "generated_date": "2023-11-01T11:35:36.627040"
+}

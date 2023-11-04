@@ -1,0 +1,10 @@
+Efinity Interface Designer Device Migration Log
+Version: 2023.1.150
+Date: 2023-10-31 10:02
+Device Change: Ti180J484 to T120F324
+Migration Type: default
+Block Type Change: MIPI V1 is now supported
+Block Type Change: MIPI_LANE V1 is not supported
+Block Type Change: MIPI DPHY V1 is not supported
+Block Type Change: PLL SSC V1 is not supported
+Resource/Pin Assignment: All assignments have been reset

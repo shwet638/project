@@ -1,0 +1,17 @@
+clock {
+  name: "i_clk"
+  period: 1000
+  target_pin {
+    cell: "i_clk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 110
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}

@@ -1,0 +1,473 @@
+Running: efx_run_map.py systolic_array --family Trion --device T120F324 --project_xml C:\Efinity\2023.1\project\systolic_array\systolic_array.xml -v ../../../../Users/asus/dada_multiplier/dada_multiplier.srcs/sources_1/new/fa.v,t:default -v ../../../../Users/asus/dada_multiplier/dada_multiplier.srcs/sources_1/new/ha.v,t:default -v ../../../../Users/asus/dada_multiplier/dada_multiplier.srcs/sources_1/new/dada_mul.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/Systolic Array/rtl/pe_grid.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/Systolic Array/rtl/systolic_array.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/top_design.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/uart/uart_tx.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/uart/uart_rx.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/i_fifo_design.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/o_fifo_design.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/fifo_integration.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_v/fifo_valid.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_v/memory_valid.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/fifo_controller.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/row_buf_controller.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo/fifo.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo/memory.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/shift_reg_row.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/shift_reg_col.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/fifo_north.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/fifo_west.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/in_sa_column_data.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/in_sa_row_data.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/data_valid_append.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/controller.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/controller_row.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/o_col_fifo.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/out_sa_row.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/o_row_fifo.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/o_sa_column.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/o_column_data_controller.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/o_row_data_controller.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/o_row_append_dv.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/row_fifo_data.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/row_fifo_read_en.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/row_data_controller.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/column_reg_gen.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/wren_register.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/col_relu_array.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/relu_8.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/col_dv_append.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/mux_col.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/fifo_controller_col.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/mux_row.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/col_fifo_data_controller_sel.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/col_fifo_data.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/mux.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/col_fifo_read_en.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/fifo_controller_row.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/top_module_design.v,t:default -v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/col_data_controller.v,t:default -v ../../../../Users/asus/dada_multiplier/dada_multiplier.srcs/sources_1/new/top.v,t:default -v pe_grid_dada.v,t:default -v top_design_dada.v,t:default -v systolic_array_dada.v,t:default -v top_9x48.v,t:default -v ../../../../Users/asus/Desktop/NxN/sa/systolic_array_vedic.v,t:default -v ../../../../Users/asus/Desktop/NxN/sa/pe_grid_vedic.v,t:default -v top_vedic.v,t:default -v ../../../../Users/asus/Desktop/VM_288/vedic_mul_288/adder.v,t:default -v ../../../../Users/asus/Desktop/VM_288/vedic_mul_288/sixbitmcsa.v,t:default -v ../../../../Users/asus/Desktop/VM_288/vedic_mul_288/multiply8.v,t:default -v ../../../../Users/asus/Desktop/VM_288/vedic_mul_288/adder_full.v,t:default -v ../../../../Users/asus/Desktop/VM_288/vedic_mul_288/twbitmcsa.v,t:default -v ../../../../Users/asus/Desktop/VM_288/vedic_mul_288/multiply.v,t:default -v ../../../../Users/asus/Desktop/VM_288/vedic_mul_288/mux4.v,t:default -v ../../../../Users/asus/Desktop/VM_288/vedic_mul_288/multiply4x4.v,t:default -v   new_pe.v,t:default -v n_pe.v,t:default -v n_sa.v,t:default --output_dir outflow --opt root=top_9x48 --opt veri_options=verilog_mode=verilog_2k,vhdl_mode=vhdl_2008 work-dir=work_syn write_efx_verilog=on allow-const-ram-index=0 blackbox-error=1 blast_const_operand_adders=1 bram_output_regs_packing=1 create-onehot-fsms=0 fanout-limit=0 hdl-compile-unit=1 infer-clk-enable=3 infer-sync-set-reset=1 max_ram=-1 max_mult=-1 min-sr-fanout=0 min-ce-fanout=0 mult-decomp-retime=0 mode=speed operator-sharing=0 optimize-adder-tree=0 optimize-zero-init-rom=1 retiming=1 seq_opt=1 seq-opt-sync-only=0 mult_input_regs_packing=1 mult_output_regs_packing=1 dsp-input-regs-packing=1 dsp-output-regs-packing=1 dsp-mac-packing=1 insert-carry-skip=0 pack-luts-to-comb4=0
+Creating C:\Efinity\2023.1\bin\work_syn
+Running: C:/Efinity/2023.1\bin\efx_map.exe --project systolic_array --family Trion --device T120F324 --output-dir outflow --v ../../../../Users/asus/dada_multiplier/dada_multiplier.srcs/sources_1/new/fa.v,t:default --v ../../../../Users/asus/dada_multiplier/dada_multiplier.srcs/sources_1/new/ha.v,t:default --v ../../../../Users/asus/dada_multiplier/dada_multiplier.srcs/sources_1/new/dada_mul.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/Systolic Array/rtl/pe_grid.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/Systolic Array/rtl/systolic_array.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/top_design.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/uart/uart_tx.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/uart/uart_rx.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/i_fifo_design.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/o_fifo_design.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/fifo_integration.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_v/fifo_valid.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_v/memory_valid.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/fifo_controller.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/row_buf_controller.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo/fifo.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo/memory.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/shift_reg_row.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/shift_reg_col.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/fifo_north.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/fifo_west.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/in_sa_column_data.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/in_sa_row_data.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/data_valid_append.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/controller.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/controller_row.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/o_col_fifo.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/out_sa_row.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/o_row_fifo.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/o_sa_column.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/o_column_data_controller.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/o_row_data_controller.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/o_row_append_dv.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/row_fifo_data.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/row_fifo_read_en.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/row_data_controller.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/column_reg_gen.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/wren_register.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/col_relu_array.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/relu_8.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/col_dv_append.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/mux_col.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/fifo_controller_col.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/mux_row.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/col_fifo_data_controller_sel.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/col_fifo_data.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/mux.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/col_fifo_read_en.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/fifo_controller_row.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/top_module_design.v,t:default --v ../../../../Users/asus/Desktop/gati/Gati/sa_9xN/fifo_integration/col_data_controller.v,t:default --v ../../../../Users/asus/dada_multiplier/dada_multiplier.srcs/sources_1/new/top.v,t:default --v ../../../../Users/asus/Desktop/NxN/sa/systolic_array_vedic.v,t:default --v ../../../../Users/asus/Desktop/NxN/sa/pe_grid_vedic.v,t:default --v ../../../../Users/asus/Desktop/VM_288/vedic_mul_288/adder.v,t:default --v ../../../../Users/asus/Desktop/VM_288/vedic_mul_288/sixbitmcsa.v,t:default --v ../../../../Users/asus/Desktop/VM_288/vedic_mul_288/multiply8.v,t:default --v ../../../../Users/asus/Desktop/VM_288/vedic_mul_288/adder_full.v,t:default --v ../../../../Users/asus/Desktop/VM_288/vedic_mul_288/twbitmcsa.v,t:default --v ../../../../Users/asus/Desktop/VM_288/vedic_mul_288/multiply.v,t:default --v ../../../../Users/asus/Desktop/VM_288/vedic_mul_288/mux4.v,t:default --v ../../../../Users/asus/Desktop/VM_288/vedic_mul_288/multiply4x4.v,t:default --project-xml C:\Efinity\2023.1\project\systolic_array\systolic_array.xml --binary-db outflow\systolic_array.vdb --root=top_9x48 --veri_options=verilog_mode=verilog_2k,vhdl_mode=vhdl_2008 --work-dir=work_syn --write-efx-verilog=outflow\systolic_array.map.v --allow-const-ram-index=0 --blackbox-error=1 --blast_const_operand_adders=1 --bram_output_regs_packing=1 --create-onehot-fsms=0 --fanout-limit=0 --hdl-compile-unit=1 --infer-clk-enable=3 --infer-sync-set-reset=1 --max_ram=-1 --max_mult=-1 --min-sr-fanout=0 --min-ce-fanout=0 --mult-decomp-retime=0 --mode=speed --operator-sharing=0 --optimize-adder-tree=0 --optimize-zero-init-rom=1 --retiming=1 --seq_opt=1 --seq-opt-sync-only=0 --mult_input_regs_packing=1 --mult_output_regs_packing=1 --dsp-input-regs-packing=1 --dsp-output-regs-packing=1 --dsp-mac-packing=1 --insert-carry-skip=0 --pack-luts-to-comb4=0
+[EFX-0000 INFO] Efinix FPGA Synthesis.
+[EFX-0000 INFO] Version: 2023.1.150
+[EFX-0000 INFO] Compiled: Jun 23 2023.
+[EFX-0000 INFO] 
+[EFX-0000 INFO] Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+
+-- Analyzing Verilog file 'C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(8): INFO: compiling module 'EFX_IBUF' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(16): INFO: compiling module 'EFX_OBUF' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(23): INFO: compiling module 'EFX_IO_BUF' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(33): INFO: compiling module 'EFX_CLKOUT' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(41): INFO: compiling module 'EFX_IREG' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(51): INFO: compiling module 'EFX_OREG' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(60): INFO: compiling module 'EFX_IOREG' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(75): INFO: compiling module 'EFX_IDDIO' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(87): INFO: compiling module 'EFX_ODDIO' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(99): INFO: compiling module 'EFX_GPIO_V1' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(118): INFO: compiling module 'EFX_PLL_V1' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(136): INFO: compiling module 'EFX_OSC_V1' (VERI-1018)
+[EFX-0034 WARNING] Project XML file specified. Source files specified in the command line are ignored.
+INFO: Read project database "C:\Efinity\2023.1\project\systolic_array\systolic_array.xml"
+INFO: ***** Beginning Analysis ... *****
+INFO: default VHDL library search path is now "C:/Efinity/2023.1/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+-- Analyzing Verilog file 'C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+-- Analyzing Verilog file 'C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\dada_multiplier\dada_multiplier.srcs\sources_1\new\fa.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\dada_multiplier\dada_multiplier.srcs\sources_1\new\ha.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\dada_multiplier\dada_multiplier.srcs\sources_1\new\dada_mul.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\Systolic Array\rtl\pe_grid.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\Systolic Array\rtl\systolic_array.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\top_design.v' (VERI-1482)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\top_design.v(91): INFO: undeclared symbol 'temp_east', assumed default net type 'wire' (VERI-2561)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\uart\uart_tx.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\uart\uart_rx.v' (VERI-1482)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\uart\uart_rx.v(10): WARNING: parameter 'IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\uart\uart_rx.v(11): WARNING: parameter 'RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\uart\uart_rx.v(12): WARNING: parameter 'RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\uart\uart_rx.v(13): WARNING: parameter 'RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\uart\uart_rx.v(14): WARNING: parameter 'CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\i_fifo_design.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_fifo_design.v' (VERI-1482)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_fifo_design.v(87): INFO: undeclared symbol 'out_row_fifo_empty', assumed default net type 'wire' (VERI-2561)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_fifo_design.v(192): INFO: undeclared symbol 'out_col_fifo_empty', assumed default net type 'wire' (VERI-2561)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\fifo_integration.v' (VERI-1482)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\fifo_integration.v(97): INFO: undeclared symbol 'sr_enable_1', assumed default net type 'wire' (VERI-2561)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\fifo_integration.v(120): INFO: undeclared symbol 'empty_2', assumed default net type 'wire' (VERI-2561)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\fifo_integration.v(121): INFO: undeclared symbol 'data_fifo_occupants', assumed default net type 'wire' (VERI-2561)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\fifo_integration.v(123): INFO: undeclared symbol 'sr_enable_2', assumed default net type 'wire' (VERI-2561)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\fifo_valid.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\memory_valid.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\fifo_controller.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\row_buf_controller.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo\fifo.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo\memory.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\shift_reg_row.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\shift_reg_col.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\fifo_north.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\fifo_west.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\in_sa_column_data.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\in_sa_row_data.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\data_valid_append.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\controller.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\controller_row.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_col_fifo.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\out_sa_row.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_row_fifo.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_sa_column.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_column_data_controller.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_row_data_controller.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_row_append_dv.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\row_fifo_data.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\row_fifo_read_en.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\row_data_controller.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\column_reg_gen.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\wren_register.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\col_relu_array.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\relu_8.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\col_dv_append.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\mux_col.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\fifo_controller_col.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\mux_row.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\col_fifo_data_controller_sel.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\col_fifo_data.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\mux.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\col_fifo_read_en.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\fifo_controller_row.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\top_module_design.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\col_data_controller.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\dada_multiplier\dada_multiplier.srcs\sources_1\new\top.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Efinity\2023.1\project\systolic_array\pe_grid_dada.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Efinity\2023.1\project\systolic_array\top_design_dada.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Efinity\2023.1\project\systolic_array\systolic_array_dada.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Efinity\2023.1\project\systolic_array\top_9x48.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\NxN\sa\systolic_array_vedic.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\NxN\sa\pe_grid_vedic.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Efinity\2023.1\project\systolic_array\top_vedic.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\VM_288\vedic_mul_288\adder.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\VM_288\vedic_mul_288\sixbitmcsa.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\VM_288\vedic_mul_288\multiply8.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\VM_288\vedic_mul_288\adder_full.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\VM_288\vedic_mul_288\twbitmcsa.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\VM_288\vedic_mul_288\multiply.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\VM_288\vedic_mul_288\mux4.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\asus\Desktop\VM_288\vedic_mul_288\multiply4x4.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Efinity\2023.1\project\systolic_array\  new_pe.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Efinity\2023.1\project\systolic_array\n_pe.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Efinity\2023.1\project\systolic_array\n_sa.v' (VERI-1482)
+INFO: Analysis took 0.129065 seconds.
+INFO: 	Analysis took 0.015625 seconds (approximately) in total CPU time.
+INFO: Analysis virtual memory usage: begin = 55.396 MB, end = 56.34 MB, delta = 0.944 MB
+INFO: 	Analysis peak virtual memory usage = 56.34 MB
+INFO: Analysis resident set memory usage: begin = 59.052 MB, end = 61.096 MB, delta = 2.044 MB
+INFO: 	Analysis peak resident set memory usage = 61.096 MB
+INFO: ***** Ending Analysis ... *****
+INFO: ***** Beginning Elaboration ... *****
+C:\Efinity\2023.1\project\systolic_array\top_9x48.v(12): INFO: compiling module 'top_9x48' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\uart\uart_rx.v(1): INFO: compiling module 'uart_rx(CLOCKS_PER_BIT=50)' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\i_fifo_design.v(1): INFO: compiling module 'i_fifo_design(COL=1,TOTAL_BYTES=9,W_ADDR=9,RAM_DEPTH=512)' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\fifo_integration.v(1): INFO: compiling module 'fifo_integration(RAM_DEPTH=512)' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\fifo_valid.v(3): INFO: compiling module 'fifo_valid(ADDR_WIDTH=9,RAM_DEPTH=512)' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\fifo_valid.v(45): WARNING: expression size 11 truncated to fit in target size 10 (VERI-1209)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\fifo_valid.v(46): WARNING: expression size 11 truncated to fit in target size 10 (VERI-1209)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\fifo_valid.v(47): WARNING: expression size 32 truncated to fit in target size 10 (VERI-1209)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\fifo_valid.v(48): WARNING: expression size 11 truncated to fit in target size 10 (VERI-1209)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\memory_valid.v(3): INFO: compiling module 'memory_valid(ADDR_WIDTH=9,RAM_DEPTH=512)' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\memory_valid.v(34): INFO: extracting RAM for identifier 'mem' (VERI-2571)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\fifo_valid.v(65): WARNING: actual bit length 10 differs from formal bit length 9 for port 'waddr' (VERI-1330)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\fifo_valid.v(69): WARNING: actual bit length 10 differs from formal bit length 9 for port 'raddr' (VERI-1330)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\fifo_controller.v(40): INFO: compiling module 'col_buff_controller(COL=1,W_ADDR=9)' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\fifo_controller.v(74): WARNING: expression size 5 truncated to fit in target size 4 (VERI-1209)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\row_buf_controller.v(1): INFO: compiling module 'row_buf_controller(COL=1,W_ADDR=9)' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\row_buf_controller.v(34): WARNING: expression size 5 truncated to fit in target size 4 (VERI-1209)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo\fifo.v(1): INFO: compiling module 'fifo(ADDR_WIDTH=9,RAM_DEPTH=512)' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo\fifo.v(39): WARNING: expression size 11 truncated to fit in target size 10 (VERI-1209)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo\fifo.v(40): WARNING: expression size 11 truncated to fit in target size 10 (VERI-1209)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo\fifo.v(41): WARNING: expression size 32 truncated to fit in target size 10 (VERI-1209)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo\fifo.v(42): WARNING: expression size 11 truncated to fit in target size 10 (VERI-1209)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo\memory.v(1): INFO: compiling module 'memory(ADDR_WIDTH=9,RAM_DEPTH=512)' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo\memory.v(30): INFO: extracting RAM for identifier 'mem' (VERI-2571)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo\fifo.v(58): WARNING: actual bit length 10 differs from formal bit length 9 for port 'waddr' (VERI-1330)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo\fifo.v(62): WARNING: actual bit length 10 differs from formal bit length 9 for port 'raddr' (VERI-1330)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\shift_reg_col.v(35): INFO: compiling module 'shift_reg_col(COL=1)' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\shift_reg_col.v(53): WARNING: expression size 2 truncated to fit in target size 1 (VERI-1209)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\shift_reg_row.v(1): INFO: compiling module 'shift_reg_row' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\shift_reg_row.v(24): WARNING: expression size 10 truncated to fit in target size 9 (VERI-1209)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\fifo_north.v(1): INFO: compiling module 'fifo_north(COL=1,W_ADDR=9)' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\in_sa_column_data.v(1): INFO: compiling module 'in_sa_column_data(COL=1)' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\in_sa_column_data.v(24): INFO: compiling module 'append_bits' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\fifo_west.v(1): INFO: compiling module 'fifo_west(W_ADDR=9,RAM_DEPTH=512)' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\in_sa_row_data.v(1): INFO: compiling module 'in_sa_row_data(ROW=9)' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\data_valid_append.v(1): INFO: compiling module 'data_valid_append' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\controller.v(1): INFO: compiling module 'controller' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\controller.v(76): WARNING: expression size 6 truncated to fit in target size 5 (VERI-1209)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\controller_row.v(2): INFO: compiling module 'controller_row' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\Systolic Array\rtl\systolic_array.v(5): INFO: compiling module 'systolic_array(COL=1,TOTAL_BYTES=9)' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\Systolic Array\rtl\pe_grid.v(4): INFO: compiling module 'pe_grid(COLS=1)' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\Systolic Array\rtl\pe_grid.v(116): INFO: compiling module 'pe' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\Systolic Array\rtl\pe_grid.v(155): INFO: compiling module 'demux_wb_one' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\mux.v(4): INFO: compiling module 'mux' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\Systolic Array\rtl\pe_grid.v(32): WARNING: actual bit length 33 differs from formal bit length 32 for port 'o_data' (VERI-1330)
+C:\Users\asus\Desktop\gati\Gati\Systolic Array\rtl\pe_grid.v(48): WARNING: actual bit length 33 differs from formal bit length 32 for port 'w_p_sum' (VERI-1330)
+C:\Users\asus\Desktop\gati\Gati\Systolic Array\rtl\pe_grid.v(50): WARNING: actual bit length 33 differs from formal bit length 32 for port 'o_data' (VERI-1330)
+C:\Users\asus\Desktop\gati\Gati\Systolic Array\rtl\pe_grid.v(48): WARNING: actual bit length 33 differs from formal bit length 32 for port 'w_p_sum' (VERI-1330)
+C:\Users\asus\Desktop\gati\Gati\Systolic Array\rtl\pe_grid.v(50): WARNING: actual bit length 33 differs from formal bit length 32 for port 'o_data' (VERI-1330)
+C:\Users\asus\Desktop\gati\Gati\Systolic Array\rtl\pe_grid.v(48): WARNING: actual bit length 33 differs from formal bit length 32 for port 'w_p_sum' (VERI-1330)
+C:\Users\asus\Desktop\gati\Gati\Systolic Array\rtl\pe_grid.v(50): WARNING: actual bit length 33 differs from formal bit length 32 for port 'o_data' (VERI-1330)
+C:\Users\asus\Desktop\gati\Gati\Systolic Array\rtl\pe_grid.v(48): WARNING: actual bit length 33 differs from formal bit length 32 for port 'w_p_sum' (VERI-1330)
+C:\Users\asus\Desktop\gati\Gati\Systolic Array\rtl\pe_grid.v(50): WARNING: actual bit length 33 differs from formal bit length 32 for port 'o_data' (VERI-1330)
+C:\Users\asus\Desktop\gati\Gati\Systolic Array\rtl\pe_grid.v(48): WARNING: actual bit length 33 differs from formal bit length 32 for port 'w_p_sum' (VERI-1330)
+C:\Users\asus\Desktop\gati\Gati\Systolic Array\rtl\pe_grid.v(50): WARNING: actual bit length 33 differs from formal bit length 32 for port 'o_data' (VERI-1330)
+C:\Users\asus\Desktop\gati\Gati\Systolic Array\rtl\pe_grid.v(48): WARNING: actual bit length 33 differs from formal bit length 32 for port 'w_p_sum' (VERI-1330)
+C:\Users\asus\Desktop\gati\Gati\Systolic Array\rtl\pe_grid.v(50): WARNING: actual bit length 33 differs from formal bit length 32 for port 'o_data' (VERI-1330)
+C:\Users\asus\Desktop\gati\Gati\Systolic Array\rtl\pe_grid.v(48): WARNING: actual bit length 33 differs from formal bit length 32 for port 'w_p_sum' (VERI-1330)
+C:\Users\asus\Desktop\gati\Gati\Systolic Array\rtl\pe_grid.v(50): WARNING: actual bit length 33 differs from formal bit length 32 for port 'o_data' (VERI-1330)
+C:\Users\asus\Desktop\gati\Gati\Systolic Array\rtl\pe_grid.v(39): WARNING: actual bit length 33 differs from formal bit length 32 for port 'w_p_sum' (VERI-1330)
+C:\Users\asus\Desktop\gati\Gati\Systolic Array\rtl\systolic_array.v(47): INFO: compiling module 'reg_module' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\Systolic Array\rtl\systolic_array.v(92): INFO: compiling module 'data_reg' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_fifo_design.v(1): INFO: compiling module 'o_fifo_design(COL=1,W_ADDR=9,RAM_DEPTH=512)' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_row_fifo.v(1): INFO: compiling module 'o_row_fifo(ROW=9)' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\fifo_valid.v(3): INFO: compiling module 'fifo_valid(RAM_DEPTH=256)' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\fifo_valid.v(45): WARNING: expression size 10 truncated to fit in target size 9 (VERI-1209)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\fifo_valid.v(46): WARNING: expression size 10 truncated to fit in target size 9 (VERI-1209)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\fifo_valid.v(47): WARNING: expression size 32 truncated to fit in target size 9 (VERI-1209)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\fifo_valid.v(48): WARNING: expression size 10 truncated to fit in target size 9 (VERI-1209)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\memory_valid.v(3): INFO: compiling module 'memory_valid(RAM_DEPTH=256)' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\memory_valid.v(34): INFO: extracting RAM for identifier 'mem' (VERI-2571)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\fifo_valid.v(65): WARNING: actual bit length 9 differs from formal bit length 8 for port 'waddr' (VERI-1330)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\fifo_valid.v(69): WARNING: actual bit length 9 differs from formal bit length 8 for port 'raddr' (VERI-1330)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\out_sa_row.v(1): INFO: compiling module 'out_sa_row(ROW=9)' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_row_append_dv.v(1): INFO: compiling module 'o_row_append_dv' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\row_data_controller.v(1): INFO: compiling module 'row_data_controller' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\row_data_controller.v(30): WARNING: expression size 5 truncated to fit in target size 4 (VERI-1209)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\row_fifo_data.v(1): INFO: compiling module 'row_fifo_data(ROW=9)' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\fifo_valid.v(3): INFO: compiling module 'fifo_valid' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\fifo_valid.v(45): WARNING: expression size 10 truncated to fit in target size 9 (VERI-1209)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\fifo_valid.v(46): WARNING: expression size 10 truncated to fit in target size 9 (VERI-1209)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\fifo_valid.v(47): WARNING: expression size 32 truncated to fit in target size 9 (VERI-1209)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\fifo_valid.v(48): WARNING: expression size 10 truncated to fit in target size 9 (VERI-1209)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\fifo_valid.v(65): WARNING: actual bit length 9 differs from formal bit length 8 for port 'waddr' (VERI-1330)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\fifo_valid.v(69): WARNING: actual bit length 9 differs from formal bit length 8 for port 'raddr' (VERI-1330)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\column_reg_gen.v(1): INFO: compiling module 'column_reg_gen(COL=1)' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\wren_register.v(1): INFO: compiling module 'wren_register' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\col_relu_array.v(1): INFO: compiling module 'col_relu_array(COL=1)' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\relu_8.v(10): INFO: compiling module 'relu_8' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\relu_8.v(36): WARNING: expression size 32 truncated to fit in target size 8 (VERI-1209)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\relu_8.v(38): WARNING: expression size 12 truncated to fit in target size 8 (VERI-1209)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\col_relu_array.v(19): WARNING: actual bit length 1 differs from formal bit length 3 for port 'i_data_valid' (VERI-1330)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\col_relu_array.v(21): WARNING: actual bit length 1 differs from formal bit length 3 for port 'o_data_valid' (VERI-1330)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_col_fifo.v(1): INFO: compiling module 'o_col_fifo_array(COL=1)' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_sa_column.v(1): INFO: compiling module 'o_sa_column(COL=1)' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\col_dv_append.v(1): INFO: compiling module 'col_dv_append' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\col_data_controller.v(1): INFO: compiling module 'col_data_controller(COL=1)' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\col_data_controller.v(31): WARNING: expression size 3 truncated to fit in target size 2 (VERI-1209)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\col_fifo_data.v(1): INFO: compiling module 'col_fifo_data(COL=1)' (VERI-1018)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\col_fifo_data.v(44): WARNING: expression size 3 truncated to fit in target size 2 (VERI-1209)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_fifo_design.v(117): WARNING: net 'col_o_data1[7]' does not have a driver (VDB-1002)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_fifo_design.v(118): WARNING: net 'col_o_data2[7]' does not have a driver (VDB-1002)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_fifo_design.v(119): WARNING: net 'col_o_data3[7]' does not have a driver (VDB-1002)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_fifo_design.v(124): WARNING: net 'col_data_valid_1' does not have a driver (VDB-1002)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_fifo_design.v(125): WARNING: net 'col_data_valid_2' does not have a driver (VDB-1002)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_fifo_design.v(126): WARNING: net 'col_data_valid_3' does not have a driver (VDB-1002)
+C:\Users\asus\Desktop\gati\Gati\sa_9xN\uart\uart_tx.v(1): INFO: compiling module 'uart_tx(CLKS_PER_BIT=50)' (VERI-1018)
+INFO: Elaboration took 0.112024 seconds.
+INFO: 	Elaboration took 0.046875 seconds (approximately) in total CPU time.
+INFO: Elaboration virtual memory usage: begin = 56.34 MB, end = 66.656 MB, delta = 10.316 MB
+INFO: 	Elaboration peak virtual memory usage = 66.656 MB
+INFO: Elaboration resident set memory usage: begin = 61.108 MB, end = 71.916 MB, delta = 10.808 MB
+INFO: 	Elaboration peak resident set memory usage = 71.916 MB
+INFO: ***** Ending Elaboration ... *****
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+INFO: ***** Beginning Reading Mapping Library ... *****
+-- Analyzing Verilog file 'C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(8): INFO: compiling module 'EFX_ADD' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(21): INFO: compiling module 'EFX_FF' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(38): INFO: compiling module 'EFX_COMB4' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(48): INFO: compiling module 'EFX_GBUFCE' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(57): INFO: compiling module 'EFX_IDDR' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(71): INFO: compiling module 'EFX_ODDR' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(87): INFO: compiling module 'EFX_IOBUF' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(99): INFO: compiling module 'EFX_LUT4' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(107): INFO: compiling module 'EFX_MULT' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(142): INFO: compiling module 'EFX_DSP48' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(198): INFO: compiling module 'EFX_DSP24' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(251): INFO: compiling module 'EFX_DSP12' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(304): INFO: compiling module 'EFX_RAM_4K' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(364): INFO: compiling module 'EFX_RAM_5K' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(436): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(541): INFO: compiling module 'RAMB5' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(603): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(695): INFO: compiling module 'EFX_RAM10' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(796): INFO: compiling module 'EFX_DPRAM10' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(926): INFO: compiling module 'EFX_SRL8' (VERI-1018)
+INFO: Reading Mapping Library took 0.0189229 seconds.
+INFO: 	Reading Mapping Library took 0.015625 seconds (approximately) in total CPU time.
+INFO: Reading Mapping Library virtual memory usage: begin = 66.692 MB, end = 66.952 MB, delta = 0.26 MB
+INFO: 	Reading Mapping Library peak virtual memory usage = 66.952 MB
+INFO: Reading Mapping Library resident set memory usage: begin = 72.16 MB, end = 72.188 MB, delta = 0.028 MB
+INFO: 	Reading Mapping Library peak resident set memory usage = 72.188 MB
+INFO: ***** Ending Reading Mapping Library ... *****
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : wr_rst_n. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\memory_valid.v:22)
+[EFX-0200 WARNING] Removing redundant signal : rd_rst_n. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\memory_valid.v:24)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'mem'. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\memory_valid.v:34)
+[EFX-0200 WARNING] Removing redundant signal : dv. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\fifo_valid.v:34)
+[EFX-0200 WARNING] Removing redundant signal : wr_rst_n. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo\memory.v:19)
+[EFX-0200 WARNING] Removing redundant signal : rd_rst_n. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo\memory.v:21)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'mem'. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo\memory.v:30)
+[EFX-0200 WARNING] Removing redundant signal : data_out[8]. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\shift_reg_row.v:11)
+[EFX-0200 WARNING] Removing redundant signal : data_out[7]. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\shift_reg_row.v:11)
+[EFX-0200 WARNING] Removing redundant signal : data_out[6]. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\shift_reg_row.v:11)
+[EFX-0200 WARNING] Removing redundant signal : data_out[5]. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\shift_reg_row.v:11)
+[EFX-0200 WARNING] Removing redundant signal : data_out[4]. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\shift_reg_row.v:11)
+[EFX-0200 WARNING] Removing redundant signal : data_out[3]. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\shift_reg_row.v:11)
+[EFX-0200 WARNING] Removing redundant signal : data_out[2]. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\shift_reg_row.v:11)
+[EFX-0200 WARNING] Removing redundant signal : data_out[1]. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\shift_reg_row.v:11)
+[EFX-0200 WARNING] Removing redundant signal : data_out[0]. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\shift_reg_row.v:11)
+[EFX-0266 WARNING] Module Instance 'IN_COL_FIFO[0].fifo_inst' input pin tied to constant (rst_n=1).
+[EFX-0266 WARNING] Module Instance 'IN_ROW_FIFO[0].fifo_inst' input pin tied to constant (rst_n=1).
+[EFX-0266 WARNING] Module Instance 'IN_ROW_FIFO[1].fifo_inst' input pin tied to constant (rst_n=1).
+[EFX-0266 WARNING] Module Instance 'IN_ROW_FIFO[2].fifo_inst' input pin tied to constant (rst_n=1).
+[EFX-0266 WARNING] Module Instance 'IN_ROW_FIFO[3].fifo_inst' input pin tied to constant (rst_n=1).
+[EFX-0266 WARNING] Module Instance 'IN_ROW_FIFO[4].fifo_inst' input pin tied to constant (rst_n=1).
+[EFX-0266 WARNING] Module Instance 'IN_ROW_FIFO[5].fifo_inst' input pin tied to constant (rst_n=1).
+[EFX-0266 WARNING] Module Instance 'IN_ROW_FIFO[6].fifo_inst' input pin tied to constant (rst_n=1).
+[EFX-0266 WARNING] Module Instance 'IN_ROW_FIFO[7].fifo_inst' input pin tied to constant (rst_n=1).
+[EFX-0266 WARNING] Module Instance 'IN_ROW_FIFO[8].fifo_inst' input pin tied to constant (rst_n=1).
+[EFX-0266 WARNING] Module Instance 'weight_fifo' input pin tied to constant (rst_n=1).
+[EFX-0266 WARNING] Module Instance 'data_fifo' input pin tied to constant (rst_n=1).
+[EFX-0200 WARNING] Removing redundant signal : fifo_1_reg[7]. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\fifo_integration.v:36)
+[EFX-0200 WARNING] Removing redundant signal : fifo_1_reg[6]. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\fifo_integration.v:36)
+[EFX-0200 WARNING] Removing redundant signal : fifo_1_reg[5]. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\fifo_integration.v:36)
+[EFX-0200 WARNING] Removing redundant signal : fifo_1_reg[4]. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\fifo_integration.v:36)
+[EFX-0200 WARNING] Removing redundant signal : fifo_1_reg[3]. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\fifo_integration.v:36)
+[EFX-0200 WARNING] Removing redundant signal : fifo_1_reg[2]. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\fifo_integration.v:36)
+[EFX-0200 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'mem'. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_v\memory_valid.v:34)
+[EFX-0266 WARNING] Module Instance 'OUT_ROW_FIFO[0].fifo_inst_row' input pin tied to constant (rst_n=1).
+[EFX-0266 WARNING] Module Instance 'OUT_ROW_FIFO[1].fifo_inst_row' input pin tied to constant (rst_n=1).
+[EFX-0266 WARNING] Module Instance 'OUT_ROW_FIFO[2].fifo_inst_row' input pin tied to constant (rst_n=1).
+[EFX-0266 WARNING] Module Instance 'OUT_ROW_FIFO[3].fifo_inst_row' input pin tied to constant (rst_n=1).
+[EFX-0266 WARNING] Module Instance 'OUT_ROW_FIFO[4].fifo_inst_row' input pin tied to constant (rst_n=1).
+[EFX-0266 WARNING] Module Instance 'OUT_ROW_FIFO[5].fifo_inst_row' input pin tied to constant (rst_n=1).
+[EFX-0266 WARNING] Module Instance 'OUT_ROW_FIFO[6].fifo_inst_row' input pin tied to constant (rst_n=1).
+[EFX-0266 WARNING] Module Instance 'OUT_ROW_FIFO[7].fifo_inst_row' input pin tied to constant (rst_n=1).
+[EFX-0266 WARNING] Module Instance 'OUT_ROW_FIFO[8].fifo_inst_row' input pin tied to constant (rst_n=1).
+[EFX-0031 INFO] 'select_15' instance is encountered with don't-care(1'bx) input, rewiring to GND. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\row_fifo_data.v:40)
+[EFX-0266 WARNING] Module Instance 'RELU_GEN[0].relu_inst1' input pin tied to constant (i_data_valid[1]=0).
+[EFX-0266 WARNING] Module Instance 'RELU_GEN[0].relu_inst1' input pin tied to constant (i_data_valid[2]=0).
+[EFX-0266 WARNING] Module Instance 'OUT_COL_FIFO[0].fifo_inst' input pin tied to constant (rst_n=1).
+[EFX-0031 INFO] 'select_17' instance is encountered with don't-care(1'bx) input, rewiring to GND. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\col_fifo_data.v:42)
+[EFX-0266 WARNING] Module Instance 'fifo_out_row' input pin tied to constant (rst_n=1).
+[EFX-0266 WARNING] Module Instance 'fifo_out_row' input pin tied to constant (re=1).
+[EFX-0266 WARNING] Module Instance 'fifo_out_col' input pin tied to constant (rst_n=1).
+[EFX-0266 WARNING] Module Instance 'fifo_out_col' input pin tied to constant (re=1).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'col_o_data1[7]'. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_fifo_design.v:117)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'col_o_data1[6]'. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_fifo_design.v:117)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'col_o_data1[5]'. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_fifo_design.v:117)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'col_o_data1[4]'. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_fifo_design.v:117)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'col_o_data1[3]'. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_fifo_design.v:117)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'col_o_data1[2]'. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_fifo_design.v:117)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'col_o_data1[1]'. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_fifo_design.v:117)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'col_o_data1[0]'. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_fifo_design.v:117)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'col_o_data2[7]'. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_fifo_design.v:118)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'col_o_data2[6]'. (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_fifo_design.v:118)
+[EFX-0201 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0266 WARNING] Module Instance 'uart_column_transmitter' input pin tied to constant (i_Rst_L=1).
+[EFX-0266 WARNING] Module Instance 'uart_row_transmitter' input pin tied to constant (i_Rst_L=1).
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "top_9x48"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx(CLOCKS_PER_BIT=50)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx(CLOCKS_PER_BIT=50)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "memory_valid(ADDR_WIDTH=9,RAM_DEPTH=512)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "memory_valid(ADDR_WIDTH=9,RAM_DEPTH=512)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_valid(ADDR_WIDTH=9,RAM_DEPTH=512)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_valid(ADDR_WIDTH=9,RAM_DEPTH=512)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "col_buff_controller(COL=1,W_ADDR=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "col_buff_controller(COL=1,W_ADDR=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "row_buf_controller(COL=1,W_ADDR=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "row_buf_controller(COL=1,W_ADDR=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "memory(ADDR_WIDTH=9,RAM_DEPTH=512)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "memory(ADDR_WIDTH=9,RAM_DEPTH=512)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo(ADDR_WIDTH=9,RAM_DEPTH=512)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo(ADDR_WIDTH=9,RAM_DEPTH=512)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "shift_reg_col(COL=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "shift_reg_col(COL=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "shift_reg_row" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "shift_reg_row" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_north(COL=1,W_ADDR=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_north(COL=1,W_ADDR=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "append_bits" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "append_bits" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "in_sa_column_data(COL=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "in_sa_column_data(COL=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_west(W_ADDR=9,RAM_DEPTH=512)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_west(W_ADDR=9,RAM_DEPTH=512)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "data_valid_append" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "data_valid_append" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "in_sa_row_data(ROW=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "in_sa_row_data(ROW=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_integration(RAM_DEPTH=512)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_integration(RAM_DEPTH=512)" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "controller" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "controller" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "controller_row" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "controller_row" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "i_fifo_design(COL=1,TOTAL_BYTES=9,W_ADDR=9,RAM_DEPTH=512)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "i_fifo_design(COL=1,TOTAL_BYTES=9,W_ADDR=9,RAM_DEPTH=512)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "demux_wb_one" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "demux_wb_one" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "mux" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "mux" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pe" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pe" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pe_grid(COLS=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pe_grid(COLS=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "data_reg" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "data_reg" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reg_module" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reg_module" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "systolic_array(COL=1,TOTAL_BYTES=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "systolic_array(COL=1,TOTAL_BYTES=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "memory_valid(RAM_DEPTH=256)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "memory_valid(RAM_DEPTH=256)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_valid(RAM_DEPTH=256)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_valid(RAM_DEPTH=256)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "o_row_fifo(ROW=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "o_row_fifo(ROW=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "o_row_append_dv" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "o_row_append_dv" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "out_sa_row(ROW=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "out_sa_row(ROW=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "row_fifo_data(ROW=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "row_fifo_data(ROW=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "row_data_controller" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "row_data_controller" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_valid" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_valid" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "wren_register" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "wren_register" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "column_reg_gen(COL=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "column_reg_gen(COL=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "relu_8" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "relu_8" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "col_relu_array(COL=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "col_relu_array(COL=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "o_col_fifo_array(COL=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "o_col_fifo_array(COL=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "col_dv_append" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "col_dv_append" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "o_sa_column(COL=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "o_sa_column(COL=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "col_fifo_data(COL=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "col_fifo_data(COL=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "col_data_controller(COL=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "col_data_controller(COL=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "o_fifo_design(COL=1,W_ADDR=9,RAM_DEPTH=512)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "o_fifo_design(COL=1,W_ADDR=9,RAM_DEPTH=512)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx(CLKS_PER_BIT=50)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx(CLKS_PER_BIT=50)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top_9x48" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 273 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top_9x48" end (Real time : 1s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network i_clk with 1446 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 3808 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 6s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 1s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 689, ed: 2038, lv: 4, pw: 2855.16
+[EFX-0000 INFO] ... LUT mapping end (Real time : 2s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n3 with 1003 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+INFO: ***** Beginning VDB Netlist Checker ... *****
+WARNING: Input/Inout Port i_trigger_1 is unconnected and will be removed
+WARNING: Input/Inout Port i_trigger_2 is unconnected and will be removed
+INFO: Found 2 warnings in the post-synthesis netlist.
+INFO: VDB Netlist Checker took 0.0440838 seconds.
+INFO: 	VDB Netlist Checker took 0.046875 seconds (approximately) in total CPU time.
+INFO: VDB Netlist Checker virtual memory usage: begin = 95.14 MB, end = 95.14 MB, delta = 0 MB
+INFO: 	VDB Netlist Checker peak virtual memory usage = 118.788 MB
+INFO: VDB Netlist Checker resident set memory usage: begin = 103.16 MB, end = 103.224 MB, delta = 0.064 MB
+INFO: 	VDB Netlist Checker peak resident set memory usage = 123.5 MB
+INFO: ***** Ending VDB Netlist Checker ... *****
+-- Writing netlist 'top_9x48' to Verilog file 'outflow\systolic_array.map.v' (VDB-1030)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	453
+[EFX-0000 INFO] EFX_LUT4        : 	683
+[EFX-0000 INFO] EFX_MULT        : 	9
+[EFX-0000 INFO] EFX_FF          : 	858
+[EFX-0000 INFO] EFX_RAM_5K      : 	15
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 

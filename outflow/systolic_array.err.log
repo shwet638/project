@@ -1,0 +1,1128 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 16:27:22
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 16:47:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 17:05:04
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 18:05:15
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'uart_rx' (VERI-1063) (C:\Users\asus\Desktop\gati\Gati\sa_9xN\top_design.v:30)
+[EFX-0021 ERROR] Verific elaboration of module 'top_design' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 18:05:54
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'i_fifo_design' (VERI-1063) (C:\Users\asus\Desktop\gati\Gati\sa_9xN\top_design.v:65)
+[EFX-0021 ERROR] Verific elaboration of module 'top_design' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 18:06:29
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'fifo_integration' (VERI-1063) (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\i_fifo_design.v:50)
+[EFX-0021 ERROR] Verific elaboration of module 'top_design' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 18:07:31
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'fifo_valid' (VERI-1063) (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\fifo_integration.v:59)
+[EFX-0021 ERROR] Verific elaboration of module 'top_design' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 18:08:54
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'col_buff_controller' (VERI-1063) (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\fifo_integration.v:98)
+[EFX-0021 ERROR] Verific elaboration of module 'top_design' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 18:10:31
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'col_buff_controller' (VERI-1063) (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\fifo_integration.v:98)
+[EFX-0021 ERROR] Verific elaboration of module 'top_design' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 18:28:38
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'row_buf_controller' (VERI-1063) (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\fifo_integration.v:124)
+[EFX-0021 ERROR] Verific elaboration of module 'top_design' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 18:29:10
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'fifo' (VERI-1063) (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\fifo_integration.v:164)
+[EFX-0021 ERROR] Verific elaboration of module 'top_design' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 18:30:06
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'memory' (VERI-1063) (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo\fifo.v:64)
+[EFX-0021 ERROR] Verific elaboration of module 'top_design' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 18:30:38
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'shift_reg_col' (VERI-1063) (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\fifo_integration.v:209)
+[EFX-0021 ERROR] Verific elaboration of module 'top_design' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 18:31:25
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'fifo_north' (VERI-1063) (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\fifo_integration.v:242)
+[EFX-0021 ERROR] Verific elaboration of module 'top_design' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 18:32:04
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'in_sa_column_data' (VERI-1063) (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\fifo_integration.v:252)
+[EFX-0021 ERROR] Verific elaboration of module 'top_design' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 18:32:39
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'data_valid_append' (VERI-1063) (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\in_sa_row_data.v:18)
+[EFX-0021 ERROR] Verific elaboration of module 'top_design' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 18:33:21
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'controller' (VERI-1063) (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\i_fifo_design.v:65)
+[EFX-0021 ERROR] Verific elaboration of module 'top_design' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 18:33:42
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'controller_row' (VERI-1063) (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\i_fifo_design.v:77)
+[EFX-0021 ERROR] Verific elaboration of module 'top_design' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 18:34:12
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'o_row_fifo' (VERI-1063) (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_fifo_design.v:38)
+[EFX-0021 ERROR] Verific elaboration of module 'top_design' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 18:34:46
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'row_data_controller' (VERI-1063) (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_fifo_design.v:76)
+[EFX-0021 ERROR] Verific elaboration of module 'top_design' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 18:35:42
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'column_reg_gen' (VERI-1063) (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_fifo_design.v:100)
+[EFX-0021 ERROR] Verific elaboration of module 'top_design' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 18:36:21
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'wren_register' (VERI-1063) (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\column_reg_gen.v:22)
+[EFX-0021 ERROR] Verific elaboration of module 'top_design' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 18:36:53
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'col_relu_array' (VERI-1063) (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_fifo_design.v:115)
+[EFX-0021 ERROR] Verific elaboration of module 'top_design' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 18:37:41
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'col_dv_append' (VERI-1063) (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_sa_column.v:21)
+[EFX-0021 ERROR] Verific elaboration of module 'top_design' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 18:38:17
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'col_data_controller' (VERI-1063) (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\o_fifo_design.v:180)
+[EFX-0021 ERROR] Verific elaboration of module 'top_design' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 18:38:45
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'mux' (VERI-1206) (C:\Users\asus\Desktop\gati\Gati\sa_9xN\fifo_integration\mux.v:19)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 18:39:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 18:46:17
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'top' (VERI-1137) (C:\Users\asus\Desktop\gati\Gati\Systolic Array\rtl\pe_grid.v:177)
+[EFX-0010 VERI-ERROR] module 'demux_wb' is ignored due to previous errors (VERI-1072) (C:\Users\asus\Desktop\gati\Gati\Systolic Array\rtl\pe_grid.v:194)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 18:46:38
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '.' (VERI-1137) (C:\Users\asus\Desktop\gati\Gati\Systolic Array\rtl\pe_grid.v:177)
+[EFX-0010 VERI-ERROR] module 'demux_wb' is ignored due to previous errors (VERI-1072) (C:\Users\asus\Desktop\gati\Gati\Systolic Array\rtl\pe_grid.v:194)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 18:47:02
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2023 19:02:12
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'twbitmcsa' (VERI-1063) (C:\Users\asus\Mathematics\Mathematics.srcs\sources_1\new\multiply8.v:64)
+[EFX-0021 ERROR] Verific elaboration of module 'top_design' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 10:11:29
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'output' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\new_top_design.v:10)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'output' used in incorrect context (VERI-2344) (C:\Efinity\2023.1\project\systolic_array\new_top_design.v:10)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 10:11:49
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'top_design_dada' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\new_top_design.v:30)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 10:12:03
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] unexpected EOF (VERI-1138) (C:\Efinity\2023.1\project\systolic_array\new_top_design.v:40)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 10:12:20
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'pe' (VERI-1206) (C:\Efinity\2023.1\project\systolic_array\pe_grid_dada.v:150)
+[EFX-0010 VERI-ERROR] module 'demux_wb' is ignored due to previous errors (VERI-1072) (C:\Efinity\2023.1\project\systolic_array\pe_grid_dada.v:194)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 10:13:35
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'pe' (VERI-1206) (C:\Efinity\2023.1\project\systolic_array\pe_grid_dada.v:150)
+[EFX-0010 VERI-ERROR] module 'demux_wb' is ignored due to previous errors (VERI-1072) (C:\Efinity\2023.1\project\systolic_array\pe_grid_dada.v:194)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 10:14:22
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'reg_module' (VERI-1206) (C:\Efinity\2023.1\project\systolic_array\systolic_array_dada.v:89)
+[EFX-0010 VERI-ERROR] module 'data_reg' is ignored due to previous errors (VERI-1072) (C:\Efinity\2023.1\project\systolic_array\systolic_array_dada.v:101)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 10:17:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 10:50:44
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'systolic_array_design' is already declared (VERI-1116) (C:\Users\asus\Desktop\gati\Gati\sa_9xN\top_design.v:110)
+[EFX-0010 VERI-ERROR] module 'top_design' is ignored due to previous errors (VERI-1072) (C:\Users\asus\Desktop\gati\Gati\sa_9xN\top_design.v:160)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 10:51:23
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 11:34:46
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'top_design' (VERI-1206) (C:\Efinity\2023.1\project\systolic_array\top_9x48.v:160)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 11:35:16
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 11:45:49
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 12:03:01
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 12:03:37
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 12:19:17
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 12:35:11
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 12:53:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 14:22:58
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 14:57:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 15:10:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 15:21:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 15:22:04
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 17:11:45
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'design' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\top_9x48.v:80)
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\top_9x48.v:120)
+[EFX-0010 VERI-ERROR] 'systolic' is an unknown type (VERI-1556) (C:\Efinity\2023.1\project\systolic_array\top_9x48.v:94)
+[EFX-0010 VERI-ERROR] module 'top_9x48' is ignored due to previous errors (VERI-1072) (C:\Efinity\2023.1\project\systolic_array\top_9x48.v:175)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 17:14:06
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 17:19:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 17:46:47
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'systolic_array_9x16_2_d' is already declared (VERI-1116) (C:\Efinity\2023.1\project\systolic_array\top_9x48.v:142)
+[EFX-0010 VERI-ERROR] module 'top_9x48' is ignored due to previous errors (VERI-1072) (C:\Efinity\2023.1\project\systolic_array\top_9x48.v:191)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 17:47:37
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 17:54:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 28, 2023 09:55:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 28, 2023 09:58:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 28, 2023 10:37:29
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 28, 2023 11:56:45
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 28, 2023 12:13:02
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 28, 2023 12:21:22
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 28, 2023 12:25:44
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 28, 2023 12:28:17
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 28, 2023 12:35:46
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 30, 2023 09:13:50
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 30, 2023 09:26:04
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 30, 2023 10:00:04
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 09:14:29
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 09:16:38
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 09:29:05
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 09:46:09
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 09:51:44
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] index 1024 is out of range [1023:0] for 'i_sa_north_data' (VERI-1216) (C:\Efinity\2023.1\project\systolic_array\top_9x48.v:118)
+[EFX-0010 VERI-ERROR] index 32 is out of range [31:0] for 'sel_out' (VERI-1216) (C:\Efinity\2023.1\project\systolic_array\top_9x48.v:120)
+[EFX-0010 VERI-ERROR] index 1024 is out of range [1023:0] for 'o_south_data' (VERI-1216) (C:\Efinity\2023.1\project\systolic_array\top_9x48.v:122)
+[EFX-0021 ERROR] Verific elaboration of module 'top_9x48' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 09:52:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 10:03:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 10:08:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 10:14:01
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 14:15:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 14:21:11
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 14:25:27
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 14:32:26
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 14:36:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 14:42:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 14:45:45
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 14:52:24
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '(' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\n_pe.v:134)
+[EFX-0010 VERI-ERROR] 'demux_wb_one' is an unknown type (VERI-1556) (C:\Efinity\2023.1\project\systolic_array\n_pe.v:142)
+[EFX-0010 VERI-ERROR] module 'pe' is ignored due to previous errors (VERI-1072) (C:\Efinity\2023.1\project\systolic_array\n_pe.v:152)
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\n_pe.v:166)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 14:56:51
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '(' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\n_pe.v:134)
+[EFX-0010 VERI-ERROR] 'demux_new' is an unknown type (VERI-1556) (C:\Efinity\2023.1\project\systolic_array\n_pe.v:142)
+[EFX-0010 VERI-ERROR] module 'pe_new' is ignored due to previous errors (VERI-1072) (C:\Efinity\2023.1\project\systolic_array\n_pe.v:152)
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\n_pe.v:166)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 14:59:04
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\n_pe.v:152)
+[EFX-0010 VERI-ERROR] module 'pe_new' is ignored due to previous errors (VERI-1072) (C:\Efinity\2023.1\project\systolic_array\n_pe.v:153)
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\n_pe.v:167)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 14:59:26
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\n_pe.v:167)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 15:00:00
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\n_pe.v:202)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (C:\Efinity\2023.1\project\systolic_array\n_pe.v:202)
+[EFX-0010 VERI-ERROR] module 'demux_new' is ignored due to previous errors (VERI-1072) (C:\Efinity\2023.1\project\systolic_array\n_pe.v:225)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 15:00:37
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 15:03:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 15:07:13
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 15:09:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 15:13:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 15:16:31
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 15:20:45
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 15:27:44
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 15:31:15
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 15:35:20
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 15:39:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 15:41:12
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 15:41:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 15:57:06
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 16:08:23
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 16:57:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 18:11:15
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 18:18:26
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'reg' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\test_c.v:32)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'reg' used in incorrect context (VERI-2344) (C:\Efinity\2023.1\project\systolic_array\test_c.v:32)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 18:18:51
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 18:23:21
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 18:34:04
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ',' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\test_pe_grid.v:9)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 18:34:22
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'pe_block' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\test_pe_grid.v:25)
+[EFX-0010 VERI-ERROR] syntax error near 'pe_block' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\test_pe_grid.v:32)
+[EFX-0010 VERI-ERROR] syntax error near 'pe_block' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\test_pe_grid.v:41)
+[EFX-0010 VERI-ERROR] syntax error near 'pe_block' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\test_pe_grid.v:50)
+[EFX-0010 VERI-ERROR] syntax error near 'pe_block' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\test_pe_grid.v:59)
+[EFX-0010 VERI-ERROR] syntax error near 'pe_block' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\test_pe_grid.v:68)
+[EFX-0010 VERI-ERROR] syntax error near 'pe_block' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\test_pe_grid.v:77)
+[EFX-0010 VERI-ERROR] syntax error near 'pe_block' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\test_pe_grid.v:86)
+[EFX-0010 VERI-ERROR] syntax error near 'pe_block' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\test_pe_grid.v:95)
+[EFX-0010 VERI-ERROR] 'test_c' is an unknown type (VERI-1556) (C:\Efinity\2023.1\project\systolic_array\test_pe_grid.v:30)
+[EFX-0010 VERI-ERROR] 'test_c' is an unknown type (VERI-1556) (C:\Efinity\2023.1\project\systolic_array\test_pe_grid.v:39)
+[EFX-0010 VERI-ERROR] 'test_c' is an unknown type (VERI-1556) (C:\Efinity\2023.1\project\systolic_array\test_pe_grid.v:48)
+[EFX-0010 VERI-ERROR] 'test_c' is an unknown type (VERI-1556) (C:\Efinity\2023.1\project\systolic_array\test_pe_grid.v:57)
+[EFX-0010 VERI-ERROR] 'test_c' is an unknown type (VERI-1556) (C:\Efinity\2023.1\project\systolic_array\test_pe_grid.v:66)
+[EFX-0010 VERI-ERROR] 'test_c' is an unknown type (VERI-1556) (C:\Efinity\2023.1\project\systolic_array\test_pe_grid.v:75)
+[EFX-0010 VERI-ERROR] 'test_c' is an unknown type (VERI-1556) (C:\Efinity\2023.1\project\systolic_array\test_pe_grid.v:84)
+[EFX-0010 VERI-ERROR] 'test_c' is an unknown type (VERI-1556) (C:\Efinity\2023.1\project\systolic_array\test_pe_grid.v:93)
+[EFX-0010 VERI-ERROR] 'test_c' is an unknown type (VERI-1556) (C:\Efinity\2023.1\project\systolic_array\test_pe_grid.v:102)
+[EFX-0010 VERI-ERROR] module 'test_pe_grid' is ignored due to previous errors (VERI-1072) (C:\Efinity\2023.1\project\systolic_array\test_pe_grid.v:109)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 18:36:09
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 18:38:51
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'wb_data' is not permitted (VERI-1100) (C:\Efinity\2023.1\project\systolic_array\test_c.v:79)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'wb_data' is not permitted (VERI-1100) (C:\Efinity\2023.1\project\systolic_array\test_c.v:81)
+[EFX-0010 VERI-ERROR] module 'demux_test' is ignored due to previous errors (VERI-1072) (C:\Efinity\2023.1\project\systolic_array\test_c.v:96)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 18:39:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 18:43:15
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ',' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\test_sa.v:13)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 18:44:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 18:48:41
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'top_9x48' (VERI-1206) (C:\Efinity\2023.1\project\systolic_array\test_wf.v:161)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 18:49:03
+///////////////////////////////////
+
+[EFX-0021 ERROR] Verific elaboration of module 'test_wf' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 18:49:23
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 01, 2023 09:55:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 01, 2023 15:41:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 01, 2023 15:47:20
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 01, 2023 15:50:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 01, 2023 15:59:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 01, 2023 16:11:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 01, 2023 16:35:11
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 01, 2023 17:16:51
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 01, 2023 17:25:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 01, 2023 17:31:04
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 01, 2023 17:32:00
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 01, 2023 17:40:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 01, 2023 17:49:23
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 01, 2023 18:01:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 01, 2023 18:06:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 01, 2023 18:42:13
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'systolic_array_9x32_1' is already declared (VERI-1116) (C:\Efinity\2023.1\project\systolic_array\test_wf.v:108)
+[EFX-0010 VERI-ERROR] module 'test_wf' is ignored due to previous errors (VERI-1072) (C:\Efinity\2023.1\project\systolic_array\test_wf.v:156)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 01, 2023 18:43:39
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'col_wren_dv' is constantly driven from multiple places (VDB-1000) (C:\Efinity\2023.1\project\systolic_array\test_wf.v:87)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (C:\Efinity\2023.1\project\systolic_array\test_wf.v:101)
+[EFX-0021 ERROR] Verific elaboration of module 'test_wf' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 01, 2023 18:44:09
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 02, 2023 09:13:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 02, 2023 09:22:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 02, 2023 09:51:49
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 02, 2023 10:03:04
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 02, 2023 10:20:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 02, 2023 10:43:37
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'temp_b' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\test_c.v:79)
+[EFX-0010 VERI-ERROR] module 'demux_test' is ignored due to previous errors (VERI-1072) (C:\Efinity\2023.1\project\systolic_array\test_c.v:105)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 02, 2023 10:44:22
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 02, 2023 12:41:36
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 02, 2023 13:04:02
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 02, 2023 13:05:33
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 02, 2023 13:48:43
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '[' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\test_c.v:70)
+[EFX-0010 VERI-ERROR] syntax error near '[' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\test_c.v:71)
+[EFX-0010 VERI-ERROR] syntax error near 'always' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\test_c.v:80)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'always' used in incorrect context (VERI-2344) (C:\Efinity\2023.1\project\systolic_array\test_c.v:80)
+[EFX-0010 VERI-ERROR] syntax error near 'endmodule' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\test_c.v:101)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'endmodule' used in incorrect context (VERI-2344) (C:\Efinity\2023.1\project\systolic_array\test_c.v:101)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 02, 2023 13:49:15
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'always' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\test_c.v:80)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'always' used in incorrect context (VERI-2344) (C:\Efinity\2023.1\project\systolic_array\test_c.v:80)
+[EFX-0010 VERI-ERROR] syntax error near 'endmodule' (VERI-1137) (C:\Efinity\2023.1\project\systolic_array\test_c.v:101)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'endmodule' used in incorrect context (VERI-2344) (C:\Efinity\2023.1\project\systolic_array\test_c.v:101)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 02, 2023 13:49:36
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'clk' is not declared (VERI-1128) (C:\Efinity\2023.1\project\systolic_array\test_c.v:75)
+[EFX-0010 VERI-ERROR] module 'demux_test' is ignored due to previous errors (VERI-1072) (C:\Efinity\2023.1\project\systolic_array\test_c.v:102)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 02, 2023 13:49:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 02, 2023 14:17:15
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 02, 2023 16:25:05
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 02, 2023 17:29:11
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 03, 2023 11:36:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 03, 2023 12:04:45
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 03, 2023 15:04:46
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 03, 2023 15:11:20
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 04, 2023 15:33:57
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 04, 2023 15:34:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 04, 2023 15:35:59
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'c' is not permitted (VERI-1195) (C:\Efinity\2023.1\project\systolic_array\plus_minus.v:2)
+[EFX-0010 VERI-ERROR] module 'plus_minus' is ignored due to previous errors (VERI-1072) (C:\Efinity\2023.1\project\systolic_array\plus_minus.v:3)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 04, 2023 15:37:14
+///////////////////////////////////
+
